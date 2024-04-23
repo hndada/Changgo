@@ -8,6 +8,9 @@ const Index:NextPage = () => <main>
     <li>
       <a href="/mp">뫙편</a>
     </li>
+    <li>
+      <a href="/jlpt-umineko">JLPT Umineko</a>
+    </li>
   </ul>
 </main>;
 export default Index;

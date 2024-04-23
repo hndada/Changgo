@@ -11,6 +11,11 @@
     border-collapse: collapse;
     table-layout: fixed;
 
+    td:first-child {
+      width: 150px;
+      /* Adjust the width as needed */
+    }
+
     .letter {
       width: 80px;
       font-size: 60px;
@@ -64,5 +69,11 @@
   td {
     padding: 2px 4px;
     border: 1px solid $c-black;
+  }
+
+  audio {
+    width: 100%;
+    margin-top: 8px;
+    height: 32px;
   }
 }
